@@ -43,7 +43,7 @@ class Program
             sign = "-";
         }
 
-        if (letter == "A" && sign == "+")
+        if (letter == "A" && (sign == "+" || percent >= 100))
         {
             sign = "";
         }

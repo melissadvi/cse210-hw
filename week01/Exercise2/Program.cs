@@ -48,6 +48,11 @@ class Program
             sign = "";
         }
 
+        if (letter == "F")
+        {
+            sign = "";
+        }
+
         Console.WriteLine($"Your grade is: {letter}{sign}");
 
         if (percent >= 70)
